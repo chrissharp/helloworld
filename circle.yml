@@ -2,6 +2,11 @@ machine:
   services:
     - docker
 
+dependencies:
+  override:
+    - docker info
+    - make
+
 test:
   override:
     - make
