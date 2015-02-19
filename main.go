@@ -10,5 +10,5 @@ var (
 )
 
 func main() {
-	fmt.Printf("Hello world %s, %s\n", projectVersion, projectBuild)
+	fmt.Printf("Hello wercker world %s, %s\n", projectVersion, projectBuild)
 }
